@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="russian">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Open+Sans|Roboto|Roboto+Condensed|Roboto+Mono"/>
+    <link rel="stylesheet" href="source/css/libs/normalize.css"/>
+    <link rel="stylesheet" href="source/fonts/font-awesome/on-server/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="source/css/libs/bootstrap-reboot.css"/>
+    <link rel="stylesheet" href="source/css/libs/animate.css"/>
+    <link rel="stylesheet" href="source/css/libs/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="source/css/libs/twentytwenty.css"/>
+    <link rel="stylesheet" href="source/css/libs/slick.css"/>
+    <link rel="stylesheet" href="source/css/libs/ripple.css"/>
+    <link rel="stylesheet" href="source/css/main.css"/>
+    <title>Название</title>
+  </head>
+  <body>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"> </div>
+    </div>
+    <!--include source/pug/layout/header.pug-->
+    <header>
+      <div class="desktop-nav">
+        <div class="upper-section">
+          <div class="wrapper">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="site-meta text-left"><i class="fas fa-map-marker-alt"></i><span>Адресс </span><span>|</span><span>Контакты</span></div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <div class="site-logo text-center">
+                    <h1>SiteLogo</h1>
+                  </div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                  <div class="site-meta login text-right"><span><a href="#"> <i class="fas fa-sign-in-alt"></i></a></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lower-section">
+          <div class="small-wrapper">
+            <div class="container-fluid">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <nav class="main-nav">
+                  <ul class="text-center">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a class="order" href="#">Заказать</a></li>
+                    <li class="search"><i class="fas fa-search"></i></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <div class="inner-nav">
+          <div class="wrapper">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6">
+                  <div class="site-logo">
+                    <h1> Sitename</h1>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="mobile-nav-triger text-right"><i class="fas fa-bars"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-nav-overlay animated">
+          <div class="content-center-container">
+            <div class="content-center">
+              <div class="wrapper">
+                <nav class="main-nav"> 
+                  <ul> 
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Главная</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="hero-slider full-height no-padding">
+      <div id="fit-slider-images"></div>
+      <div class="inner-section">
+        <div class="wrapper">
+          <div class="fit-slider-wrapper">
+            <div class="fit-slider">
+              <div class="fit-slide">
+                <div class="image"><img src="images/slider-pic01.jpg" alt=""/></div>
+                <div class="content">
+                  <h1 class="font-2">Создай свое <span class = "font-1">Идеальное</span> тело</h1>
+                  <button class="button">кнопка</button>
+                </div>
+              </div>
+              <div class="fit-slide">
+                <div class="image"><img src="images/slider-pic02.jpeg" alt=""/></div>
+                <div class="content">
+                  <h1>Создай свое <span class = "font-1">Идеальное</span> тело</h1>
+                  <button class="button">кнопка</button>
+                </div>
+              </div>
+              <div class="fit-slide">
+                <div class="image"><img src="images/slider-pic01.jpeg" alt=""/></div>
+                <div class="content">
+                  <h1>Текст</h1>
+                  <button class="button">кнопка</button>
+                </div>
+              </div>
+              <ul class="fit-slider-bullets">
+                <li class="bullet"><span class="number">01</span></li>
+                <li class="bullet"><span class="number">01</span></li>
+                <li class="bullet"><span class="number">01</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features-section no-padding">
+      <div class="wrapper">
+        <div class="features-container">
+          <div class="row container-fluid container-fluid container-fluid">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 features-item ripple-animation">
+              <div class="feature-wrapper">
+                <div class="feature-image"><img src="images/feature-pic04.jpg" alt=""/></div>
+                <div class="feature-title font-2">
+                  <h3 class="upper-case bold font-9">Здоровое сердце</h3>
+                </div>
+                <div class="feature-text font-2">
+                  <p>За счет быстрого снижения веса снижается количество радикальных жиров и "плохого жира" который вызывает проблемы с сердечно сосудистой системой</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 features-item ripple-animation">
+              <div class="feature-wrapper font-2">
+                <div class="feature-image"><img src="images/feature-pic02.jpg" alt=""/></div>
+                <div class="feature-title">
+                  <h3 class="upper-case bold font-9">Очищение желудка</h3>
+                </div>
+                <div class="feature-text">
+                  <p> Ваш желудок - устал! ему необходима передишка, которую вы ему дать не можете. Наше средство снижает апетит и содержит клетчатку, очищая желудок</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 features-item ripple-animation">
+              <div class="feature-wrapper font-2">
+                <div class="feature-image"><img src="images/feature-pic03.jpg" alt=""/></div>
+                <div class="feature-title">
+                  <h3 class="upper-case bold font-9">Гладкая Кожа</h3>
+                </div>
+                <div class="feature-text">
+                  <p> "Мы снаружи есть то что мы изнутри." За счет оздоровления организма и обогащения его полезными минералами вы забудете о проблемной коже.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 features-item ripple-animation">
+              <div class="feature-wrapper font-2">
+                <div class="feature-image"><img src="images/feature-pic04.jpg" alt=""/></div>
+                <div class="feature-title">
+                  <h3 class="upper-case bold font-9">Красота</h3>
+                </div>
+                <div class="feature-text">
+                  <p> Каждый человек одарен ровно на столько , сколько готов показать! Ваша природная красота скрыта за слоем жира. Красивый пресс, скулы, попа, все это сокрыто от других. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how-it-works no-padding">
+      <div class="row container-fluid container-fluid">
+        <div class="col-md-6 image-bg"></div>
+        <div class="col-md-6">
+          <div class="how-it-works-content-container">
+            <div class="how-it-works-content">
+              <div class="wrapper">
+                <div class="how-it-works-text">
+                  <h1>Здоровое сердце</h1>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptates aliquid nihil, recusandae expedita aperiam dolore rerum id esse sapiente quidem animi, cupiditate veritatis at nemo dignissimos alias itaque culpa.</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptates aliquid nihil, recusandae expedita aperiam dolore rerum id esse sapiente quidem animi, cupiditate veritatis at nemo dignissi</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptates aliquid nihil, recusandae expedita aperiam dolore rerum id esse sapiente quidem animi, cupiditate veritatis at nemo digniss							</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non voluptates aliquid nihil, recusandae expedita aperiam dolore rerum id esse sapiente quidem animi, cupiditate veritatis at nemo dignissi</p><span></span>
+                  <div class="how-it-works-marks">
+                    <div class="row container-fluid container-fluid">
+                      <div class="col-md-4"><img src="https://www.exeterguild.org/asset/Organisation/6734/MEDSOC.jpg?thumbnail_width=920&amp;thumbnail_height=300&amp;resize_type=ResizeFitAll" alt=""/></div>
+                      <div class="col-md-4"><img src="http://ncmedsoc.org/wp-content/uploads/2013/06/ncms_foundation_logo1.jpg" alt=""/></div>
+                      <div class="col-md-4"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2e-OyOx8z-WCKHpGGBU5aIbAWND7K71arKGZDpdTFmeYFL_ga" alt=""/></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feed no-padding">
+      <div class="upper-section">
+        <div class="wrapper">
+          <div class="feed-intro text-center font-1"><span class="feedback-media-icon text-center"><i class="fab fa-instagram color-1"></i></span>
+            <h1>INSTAGRAM FEED</h1>
+            <p class="color-1">Мы заботимся о вашем внешнем виде и весе каждый день. Здоровье и красота, вот что мы предлагаем.</p>
+          </div>
+        </div>
+      </div>
+      <div class="lower-section">
+        <div class="row container-fluid container-fluid container-fluid no-padding">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 no-padding">
+            <div class="feedback-item">
+              <div class="feedback-image"><img src="images/feed-pic03.jpg" alt=""/>
+                <div class="feedback-overlay">
+                  <div class="feedback-overlay-inner">
+                    <div class="feedback-content">
+                      <div class="wrapper">
+                        <div class="feedback-title">
+                          <h2>Заголовок</h2>
+                        </div>
+                        <div class="feedback-tags"><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 no-padding">
+            <div class="feedback-item">
+              <div class="feedback-image"><img src="images/feed-pic02.jpg" alt=""/>
+                <div class="feedback-overlay">
+                  <div class="feedback-overlay-inner">
+                    <div class="feedback-content">
+                      <div class="wrapper">
+                        <div class="feedback-title">
+                          <h2>Заголовок</h2>
+                        </div>
+                        <div class="feedback-tags"><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 no-padding">
+            <div class="feedback-item">
+              <div class="feedback-image"><img src="images/feed-pic03.jpg" alt=""/>
+                <div class="feedback-overlay">
+                  <div class="feedback-overlay-inner">
+                    <div class="feedback-content">
+                      <div class="wrapper">
+                        <div class="feedback-title">
+                          <h2>Заголовок</h2>
+                        </div>
+                        <div class="feedback-tags"><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 no-padding">
+            <div class="feedback-item">
+              <div class="feedback-image"><img src="images/feed-pic02.jpg" alt=""/>
+                <div class="feedback-overlay">
+                  <div class="feedback-overlay-inner">
+                    <div class="feedback-content">
+                      <div class="wrapper">
+                        <div class="feedback-title">
+                          <h2>Заголовок</h2>
+                        </div>
+                        <div class="feedback-tags"><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a><a href="#">Tag</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product-features">
+      <div class="product-features-inner">
+        <div class="wrapper">
+          <div class="row container-fluid container-fluid">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-xl-3">
+              <div class="product-feature-container">
+                <div class="product-feature">
+                  <div class="product-feature-image"><img src="images/icons/icon01.png" alt=""/></div>
+                  <div class="product-feature-title">
+                    <h3 class="font-2 upper-case">lorem ipsum</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio">
+      <div class="inner-section">
+        <div class="wrapper">
+          <div class="section-title text-center">
+            <h1>Посмотрите наши роботы</h1>
+            <h3>100% настоящие отзывы</h3>
+          </div>
+          <div class="portfolio-slider-wrapper">
+            <div class="portfolio-slider">
+              <div class="portfolio-slide"><img src="http://via.placeholder.com/550x350" alt="hello"/><img src="http://via.placeholder.com/550x350" alt="hello"/></div>
+            </div>
+          </div>
+          <div class="section-title text-center">
+            <h3>Посмотрите наши роботы</h3>
+            <h4>100% настоящие отзывы</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <div class="inner-section">
+        <div class="wrapper">
+          <div class="section-title text-center font-2 upper-case">
+            <h1>Отзывы</h1>
+          </div>
+          <div class="slider-wrapper">
+            <div class="feedback-slider">
+              <div class="feedback-slide">
+                <div class="slide-text font-2">
+                  <p> "Health is a state of complete physical, mental and social well-being, and not merely the absence of disease or infirmity."</p>
+                </div>
+                <div class="slide-user">
+                  <div class="user-image">
+                    <div class="user-inner-image"><img src="https://fedspendingtransparency.github.io/assets/img/user_personas/repurposer_mug.jpg" alt=""/></div>
+                  </div>
+                  <div class="user-meta">
+                    <div class="user-inner-meta"><span class="user-name upper-case font-2 bold">Богдан Пилипчук</span><span class="user-city font-2">Киев, Украина</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback-slide">
+                <div class="slide-text font-2">
+                  <p> "Health is a state of complete physical, mental and social well-being, and not merely the absence of disease or infirmity."</p>
+                </div>
+                <div class="slide-user">
+                  <div class="user-image">
+                    <div class="user-inner-image"><img src="https://fedspendingtransparency.github.io/assets/img/user_personas/repurposer_mug.jpg" alt=""/></div>
+                  </div>
+                  <div class="user-meta">
+                    <div class="user-inner-meta"><span class="user-name upper-case font-2 bold">Богдан Пилипчук</span><span class="user-city font-2">Киев, Украина</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback-slide">
+                <div class="slide-text font-2">
+                  <p> "Health is a state of complete physical, mental and social well-being, and not merely the absence of disease or infirmity."</p>
+                </div>
+                <div class="slide-user">
+                  <div class="user-image">
+                    <div class="user-inner-image"><img src="https://fedspendingtransparency.github.io/assets/img/user_personas/repurposer_mug.jpg" alt=""/></div>
+                  </div>
+                  <div class="user-meta">
+                    <div class="user-inner-meta"><span class="user-name upper-case font-2 bold">Богдан Пилипчук</span><span class="user-city font-2">Киев, Украина</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-bullets"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-form">
+      <div class="form-container">
+        <div class="form-container-inner">
+          <div class="wrapper">
+            <div class="row container-fluid container-fluid container-fluid">
+              <div class="col-md-6 mobile-disable"></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <h2 class="font-2 upper-case">Закажите продукт сейчас !</h2>
+                <form action="" method="POST">
+                  <input type="text" name="city" placeholder="Город"/>
+                  <input type="text" name="full-name" placeholder="Имя , Фамилия"/>
+                  <input type="input" name="phone" placeholder="Телефон"/>
+                  <input type="text" name="email" placeholder="Электронный Адрес"/>
+                  <textarea name="comment" placeholder="Комментарий"></textarea>
+                  <button class="button button-ripple button-blue upper-case font-1" type="submit">Заказать сейчас</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--include source/pug/layout/generic.pug-->
+  </body>
+  <script type="text/javascript" src="source/js/libs/jquery-3.2.1.min.js"></script>
+  <!--script(type="text/javascript" , src = "source/js/libs/...")-->
+  <script type="text/javascript" src="source/js/libs/ripple.js">//combine later</script>
+  <script type="text/javascript" src="source/js/libs/jquery.event.move.js"></script>
+  <script type="text/javascript" src="source/js/libs/jquery.twentytwenty.js"></script>
+  <script type="text/javascript" src="source/js/libs/slick.js"></script>
+  <script type="text/javascript" src="source/js/main.js"></script>
+</html>

@@ -1,0 +1,7 @@
+.how-it-works .row {
+  height: inherit; }
+
+.how-it-works .image-bg {
+  background-color: red;
+  width: 100%;
+  height: inherit; }
